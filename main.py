@@ -1,6 +1,6 @@
+import random
 
-
-def estimate_pi(n)
+def estimate_pi(n):
     circlePoint = 0
     allPoins = 0
     for _ in range(n):
@@ -10,5 +10,4 @@ def estimate_pi(n)
         if distance <=1:
             circlePoint += 1
         allPoins += 1
-
-        return 4*circlePoint/allPoins
+    return 4 * circlePoint/allPoins
