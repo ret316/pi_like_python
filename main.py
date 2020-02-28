@@ -10,5 +10,4 @@ def estimate_pi(n):
         if distance <=1:
             circlePoint += 1
         allPoins += 1
-
     return 4 * circlePoint/allPoins
